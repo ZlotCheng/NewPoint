@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义ScrollView，为里面的组件添加垂直滚动条 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	 android:focusable="true" 
+     android:focusableInTouchMode="true" 
+	>
+<!-- 定义HorizontalScrollView，为里面的组件添加水平滚动条 -->	
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    
+   <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="台区名" />
+
+	           
+	 <EditText
+        android:id="@+id/first"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+	 <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="坐标系的比例尺" />
+       
+    
+    <EditText
+        android:id="@+id/second"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+	
+    <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="。。。" />
+       
+    
+    <EditText
+        android:id="@+id/third"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="。。。" />
+        
+    
+    <EditText
+        android:id="@+id/forth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="。。。" />
+        
+    
+    <EditText
+        android:id="@+id/fifth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    
+   
+   
+        android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+    <Button android:id="@+id/build"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="新建台区"
+         />
+    <Button android:id="@+id/exit"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="退出程序"
+         />
+   
+</LinearLayout>
+
+</ScrollView>

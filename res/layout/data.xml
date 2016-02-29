@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义ScrollView，为里面的组件添加垂直滚动条 -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	 android:focusable="true" 
+     android:focusableInTouchMode="true" 
+	>
+<!-- 定义HorizontalScrollView，为里面的组件添加水平滚动条 -->	
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <com.example.newpoint.TitleLayout 
+         android:id="@+id/title"
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content" 
+         >
+         
+     </com.example.newpoint.TitleLayout>
+     
+    <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="N" />
+   <EditText
+        android:id="@+id/first"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+   <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="E" />
+   <EditText
+        android:id="@+id/second"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+   <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="相位" />
+   <EditText
+        android:id="@+id/third"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+	           
+	
+	 <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="接口 类型" />
+       
+    
+    <EditText
+        android:id="@+id/forth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+	
+    <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="线材" />
+       
+    
+    <EditText
+        android:id="@+id/fifth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="线径（单位：cm^2）" />
+        
+    
+    <EditText
+        android:id="@+id/sixth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="线长（单位：米）" />
+        
+    
+    <EditText
+        android:id="@+id/seventh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    
+  
+    
+</LinearLayout>
+
+</ScrollView>
